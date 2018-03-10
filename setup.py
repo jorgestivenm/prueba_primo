@@ -32,7 +32,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    description=""Este es un codigo que comprueba numeros primos"",
+    description="Este es un codigo que comprueba numeros primos",
     entry_points={
         'console_scripts': [
             'prueba_primo=prueba_primo.cli:main',
