@@ -28,5 +28,4 @@ def comprobar(numero):
 			else:
 				print ("\nEl numero %s NO es primo" % numero)
 				break
-		# except:
-			# print ("\nEl numero tiene que ser entero")
+
