@@ -3,15 +3,14 @@
 """Console script for prueba_primo."""
 import sys
 import click
+from prueba_primo import es_primo
 
 
 @click.command()
-def main(args=None):
-    """Console script for prueba_primo."""
-    click.echo("Replace this message by putting your code into "
-               "prueba_primo.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
-    return 0
+@click.argument('number', type=int)
+def main(number):
+    """Console script for prueb_primo."""
+    return es_primo(number)
 
 
 if __name__ == "__main__":
