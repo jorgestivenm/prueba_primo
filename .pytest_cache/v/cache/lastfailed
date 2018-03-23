@@ -1,1 +1,4 @@
-{}
+{
+  "tests/test_prueba_primo.py": true, 
+  "tests/test_prueba_primo.py::test_command_line_interface": true
+}
