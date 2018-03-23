@@ -30,3 +30,4 @@ def comprobar(numero):
                 break
         except False:
             print("error/exception")
+            
